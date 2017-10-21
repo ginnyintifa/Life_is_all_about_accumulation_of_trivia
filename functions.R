@@ -41,7 +41,7 @@ form_entry <- function(word = "",
   }
   
   category <- match.arg(arg = category, several.ok = T,
-                             choices = c("Umm...","Book", "Genetics", "Biology", "Physics","Chemistry","Math","Statistics","Machine Learning",
+                             choices = c("Umm...","food","design","Book", "Genetics", "Biology", "Physics","Chemistry","Math","Statistics","Machine Learning",
                                          "Literature","Celebrities","Music","Dance","Sports","Geography","Life Style",
                                          "Fine Arts","Food","Movies","Language","Weirdo"))
   

@@ -1,2 +1,5 @@
 load("/Users/ginny/not_work/MyWiki/database.RData")
 database
+load("/Users/ginny/not_work/MyWiki/database.RData")
+dataabase
+database

@@ -19,7 +19,7 @@ shinyUI(pageWithSidebar(
       textInput("explanation", label = "what is it about:", value = ""), 
       dateInput("date_add", label = "Date of getting:", value = Sys.Date()), 
       selectInput("category", label = "Add labels", multiple = T,
-                  choices = c("Umm...","Book","Genetics","Biology", "Physics","Chemistry","Math","Statistics","Machine Learning",
+                  choices = c("Umm...","food","design","Book","Genetics","Biology", "Physics","Chemistry","Math","Statistics","Machine Learning",
                               "Literature","Celebrities","Music","Dance","Sports","Geography","Life Style",
                               "Fine Arts","Food","Movies","Language")), 
       #numericInput("amount", label = "Payment amount:", value = 0, min = 0), 
